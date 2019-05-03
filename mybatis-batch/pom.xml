@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.github.liuax</groupId>
+        <groupId>com.github.liuaixi200</groupId>
         <artifactId>mybatis-batch-parent</artifactId>
         <version>1.0.0</version>
     </parent>
