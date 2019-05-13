@@ -41,4 +41,8 @@ public class MybatisBatchProperties {
         Integer.parseInt(batchCommit);
         this.properties.setProperty("batchCommit",batchCommit);
     }
+
+    public String getBatchCommit(){
+        return this.properties.getProperty("batchCommit");
+    }
 }

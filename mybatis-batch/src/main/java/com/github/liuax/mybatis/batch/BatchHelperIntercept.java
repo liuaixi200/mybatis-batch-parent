@@ -10,10 +10,9 @@ import java.lang.reflect.Method;
 import java.util.Properties;
 
 /**
- * @author liuax01
- * @ref
  * @className BatchHelperIntercept
- * @description
+ * @description 批量提交插件类
+ * @author liuax01
  * @date 2019/4/29 8:41
  */
 @Intercepts({@Signature(type = Executor.class, method = "update", args = {MappedStatement.class, Object.class}),

@@ -1,7 +1,14 @@
-#在spring-boot2中引入jar包
-groupId:com.github.liuax  
-artifactId:mybatis-batch-starter  
-version:1.0.0
+#如果你的项目是spring-boot开发的，按如下引用就可以了
+```xml
+       <dependency>
+            <groupId>com.github.liuaixi200</groupId>
+            <artifactId>mybatis-batch-starter</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+```
+#支持的参数
+到达多少数时自动提交。
+mybatis.batch.batchCommit: 5000 
 
 #代码中使用
 ``` java

@@ -25,9 +25,9 @@
         </dependency>
         <!-- Optional dependencies -->
         <dependency>
-            <groupId>com.github.liuax</groupId>
+            <groupId>com.github.liuaixi200</groupId>
             <artifactId>mybatis-batch</artifactId>
-            <version>1.0.0</version>
+            <version>${reversion}</version>
         </dependency>
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
